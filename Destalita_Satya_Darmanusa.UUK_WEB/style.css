@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px 0;
+}
+
+.navbar{
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 20px ;
+}
+
+nav ul li a{
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+}
+
+hr{
+    font-weight: bold;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin-left: 500px;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.button{
+    text-align: center;
+}
+
+.tombol  {
+    background-color: rgb(6, 6, 222);
+}
+
