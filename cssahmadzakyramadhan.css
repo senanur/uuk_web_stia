@@ -1,0 +1,124 @@
+*,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #9EB8D9;
+}
+
+nav {
+    height: 40px;
+    background-color: #EEF5FF;
+    display: flex;
+    padding: 1vw 8vw;
+
+
+    
+  }
+
+  nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover{
+    color: #FDC93B;
+}
+
+  nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+
+
+  .text {
+      margin-top: 2%;
+      display: flex;
+      margin-left: 340%;
+    }
+
+.lrs {
+    background-color: gray;
+}
+
+.harga-container {
+    background-color: #7C93C3;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 240px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 100px;
+    margin-left: 750px;
+    
+}
+
+
+
+
+
+.paket1 {
+    margin-left: 25%;
+    font-family: Chunck-five;
+}
+
+.pk1{
+   font-family: sans-serif;
+      
+}
+
+
+.button {
+    margin-top: 3%;
+    margin-left: 25%;
+    width: 25%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    color: #7C93C3;
+    background: white;
+}
+    
+
+
+
+.button:hover{
+    color: white;
+    background: #7C93C3;
+}
+
+.button1 {
+    margin-left:auto;
+    width: 25%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    color: #7C93C3;
+    background: white;
+}
+
+.button1:hover{
+    color: white;
+    background: #7C93C3;
+}
+
+.lyn{
+    font-size: 25px;
+}
+
+.font1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.ok{
+    background-color: black;
+}
