@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+ html {
+    background-color: lightcyan;
+ }
+
+ nav ul h1 {
+    color: aliceblue;
+    float: left;
+    padding: 0px;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+ }
+ nav{
+    margin: auto;
+    font-family: Arial;
+    padding: 30px;
+    background-color:black; 
+
+ }
+
+ nav ul  {
+    width: 100%;
+    margin: auto;
+   float:right;
+   padding: 0px;
+   display: inline-table;
+ }
+nav ul li {
+    float: right;
+}
+nav ul li a {
+ padding: 10px;
+ display: block;
+ list-style-type: none;
+ color: whitesmoke;    
+ text-decoration: none;
+ position: relative;
+ bottom: 20px;
+ 
+}
+nav ul n1 {
+    position: relative;
+    top: 180px;
+}
+.box{
+  width: 310px;
+  height: 310px;
+  margin: auto;
+  background: grey;
+  border: 30px sandybrown;
+  padding: 20px;
+  position: relative;
+  top: 100px;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: gray;
+    position: relative;
+    font-size: 16px;
+    top: 90px;
+    cursor: pointer;
+    left: 628px;
+    top: 50px;
+}
+
+#beli{
+    background-color: antiquewhite;
+    position: relative;
+    left: 610px;
+}
+#minta{
+    background-color: gray;
+    position: relative;
+    left: 630px;
+}
+#garis{
+    width: auto;
+    position: relative;
+    top: 140px;
+    background-color: black;
+    height: 3.5px;
+}
+#gambar{
+    width: 35px;
+    position: relative;
+    right: 160px;
+    bottom: 15px;
+}
+#garis2{
+    width: 310  px;
+    position: relative;
+    background-color: black;
+    height: 3.5px;
+    
+}
