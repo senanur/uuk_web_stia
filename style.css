@@ -1,0 +1,66 @@
+ * {
+    padding : 0;
+    margin: 2px;
+    color: black;
+   
+ }
+
+ .main-container {
+   height: 100vh;
+   
+ }
+
+ .navigation {
+  display: flex;
+  background-color: beige;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px
+  
+
+ }
+
+ .navigation ul {
+  list-style-type: none;
+  display: flex;
+  
+ }
+
+.navigation ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.bayo {
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 500px;
+  
+}
+
+.bayo2 {
+  text-align: left;
+  width: 400px;
+  justify-content: left;
+ background-color: grey;
+ 
+}
+
+.bayo3 {
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+
+.brand {
+  color: black;
+}
+
+.k2 {
+  color: black;
+}
+
+.k3 {
+  color: black;
+}
