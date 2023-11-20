@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: calc(1rem + 10px);
+    border-bottom: 1px solid black;
+}
+
+nav .title h1 {
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: lightblue;
+}
+
+nav .Navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+
+nav .Navigation ul li {
+    padding: 0 5px;
+    border-right: 3px solid black;
+    padding: 5px;
+}
+
+nav .Navigation ul li:hover {
+    background-color: black;
+}
+
+nav .Navigation ul li a{
+    text-decoration: none;
+    color: bla;
+}
+
+nav .Navigation ul li a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav .Navigation ul li:last-child {
+    border-right: none;
+}
+
+section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 20% 60% 10% 10%;
+    grid-template-columns: 400px;
+}
+
+section .wrapper .judul {
+    grid-row: 1;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+}
+
+section .wrapper .layanan {
+    grid-row: 2;
+    padding: 2rem;
+    border-bottom: 2px solid black;
+}
+
+section .wrapper .response {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .wrapper .response button,#response button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 3px;
+    box-shadow: 2px 2px black;
+}
+
+section .wrapper .response button:hover,#response button:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-4px);
+}
+
+#condition {
+    padding-top: 1rem;
+    text-align: center;
+    display: none;
+}
+
+#response {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#response input {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#pesan-rahasia {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: 35vh
+    }
+
+    nav .Navigation {
+        margin-top: 1rem;
+    }
+
+    nav .Navigation ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .Navigation ul li {
+        border: none;
+        padding: 5px 0;
+    }
+
+    section .wrapper .response {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        margin-bottom: 50px;
+        height: 70vh;
+        justify-content: center;
+    }
+
+    section {
+        height: 150vh;
+        overflow: none;
+    }
+    
+    section .wrapper {
+        grid-template-rows: 100px 300px 100px;
+        grid-template-columns: 100%;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    section .wrapper .judul {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    section .wrapper .layanan {
+        width: 100%;
+        font-size: 13px;
+    }
+    section .wrapper .response {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    }
+    section .wrapper #response {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        margin-top: 40px;
+    }
+
+    #pesan-rahasia {
+        margin: 10px 0 10px 0 ;
+        display: block;
+    }
+}
