@@ -1,10 +1,12 @@
 body {
     margin: 100;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(129, 163, 231);
 }
 
 header {
     padding: 10px 0;
+    background-color: plum;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,9 +44,10 @@ hr{
 .box{
     width: 400px;
     height: 400px;
-    border: 2px solid palevioletred;
+    border: 2px solid black;
     margin-left: 600px;
     border-radius: 10px;
+    background-color: plum;
 }
 
 .box ul{
@@ -53,4 +56,12 @@ hr{
 
 .button{
     text-align: center;
+}
+
+.tombol1{
+    background-color: rgb(168, 168, 243);
+}
+
+.tombol2{
+    background-color: rgb(168, 168, 243);
 }
