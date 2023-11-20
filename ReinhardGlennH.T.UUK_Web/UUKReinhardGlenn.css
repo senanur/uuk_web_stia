@@ -1,0 +1,45 @@
+.KONTEN{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Site{
+    margin-left: 78%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.header{
+    padding: 5px;
+    background-color: cadetblue;
+    border: solid black;
+    box-shadow: inset;
+}
+
+.tulisan{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Box {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 545px;
+    border-radius: 50px;
+}
+
+.teks{
+    margin-left: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.warnatombol{
+    background-color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    font-size:20px;
+    margin-left: 40px;
+}
