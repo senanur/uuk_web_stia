@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+header, main, aside {
+    padding: 20px;
+    border: 1px solid #6f00ff;
+    border-radius: 8px;
+}
+
+main {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+button {
+    background-color: #3300ff;
+    color: rgb(25, 0, 255 55, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5500ff;
+}
