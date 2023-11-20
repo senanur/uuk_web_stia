@@ -1,0 +1,94 @@
+*, html ,body {
+    margin: 0;
+    padding: 0;
+    outline: none; 
+    text-transform: capitalize;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gambar{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.header{
+    padding: 1rem 4%;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0. 5rem 1.5rem rgba(0, 0, 0, 10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B0A695;
+    position: fixed;
+}
+
+.header h1{
+    font-size: 30px;
+    margin-right: auto;
+    
+}
+
+.header .navbar a{
+    font-size: 1.1rem;
+    color: black;
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color: #f6f6f6;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3EEEA;
+}
+
+.kotak{
+    display: flex;
+    height: 350px;
+    width: 350px;
+    background-color: #DFD7BF;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.judul{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.horizontal-line{
+    height: 1.5px;
+    background-color: black;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+
+.layanan{
+    margin-left: 40px;
+    margin-top: 1rem;
+}
+
+.fiturlayanan{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.tombol button{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: burlywood;
+    margin-left: 64px;
+    text-align: center; 
+    cursor: pointer;
+}
+
