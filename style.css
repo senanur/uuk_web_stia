@@ -1,0 +1,175 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-color: rgb(187, 187, 187);
+}
+
+nav ul p {
+    color: white;
+    float: left;
+    padding: 25px;
+    position: relative;
+}
+
+#gambar {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    float: left;
+    top: 15px;
+    left: 15px;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    width: 100%;
+}
+
+nav ul {
+    width:100%;
+    margin: auto;
+    background: black;
+    display: inline-table;
+    position: relative;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li:hover {
+    background-color: gray;
+}
+
+nav ul li a {
+    padding:25px;
+    display:block;
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #2084ff;
+}
+
+/* .box1 {
+    width: 310px;
+    height: 20px;
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    padding:20px;
+    position: relative;
+    top: 100px;
+}
+
+.box1 p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 150%;
+}
+
+.box2 {
+    width: 310px;
+    height: 160px;
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    padding:20px;
+    position: relative;
+    top: 100px;
+    border-top: 0px;
+}
+
+.box2 p {
+    font-family: sans-serif;
+}
+
+.box3 {
+    width: 310px;
+    height: 20px;
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    padding:20px;
+    position: relative;
+    top: 100px;
+    border-top: 0px;
+    
+} */
+
+.container {
+    width: 350px;
+    height: 370px;
+    margin: auto;
+    background: white;
+    padding:20px;
+    position: relative;
+    top: 100px;
+    border-radius: 15px;
+    background-color: #B2C8BA;
+    border: solid black 2px;
+    
+}
+
+.judul {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#judul {
+    width: auto;
+    position: relative;
+    top: 15px;
+    background-color: black;
+    height: 1.5px;
+}
+
+.isi {
+    position: relative;
+    top: 50px;
+    font-family: sans-serif;
+}
+
+#isi {
+    position: relative;
+    top: 80px;
+    background-color: black;
+    height: 1.5px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black
+    ;
+    position: relative;
+    font-size: 16px;
+    top: 90px;
+    cursor: pointer;
+}
+
+#beli {
+    background-color: #A6CF98;
+    position: relative;
+    left: 25px;
+}
+
+#beli:hover {
+    background-color: #557C55;
+}
+
+#nawar {
+    background-color: #A6CF98;
+    position: relative;
+    left: 45px;
+}
+
+#nawar:hover {
+    background-color: #557C55;
+}
