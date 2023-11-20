@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+
+
+ .main-container {
+  height: 100vh;  
+}
+
+
+.navigation {
+ display: flex;
+ background-color: blue;
+ align-items: center;
+ justify-content: space-between;
+ height: 60px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation ul li a {
+color: black;
+text-decoration: none;
+margin-right: 35px;
+text-transform: capitalize;
+color: white;
+}
+
+.brand h4 {
+ margin-left: 35px;
+}
+
+#Giants{
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    height: 100vh;
+    display: flex;
+}
+
+.isi-Giant{
+    text-align: left;
+    background-color:yellow;
+    width: 400px;
+    justify-content: left;
+    margin-left: 600px;
+    margin-top: 300px;
+}
+
+.Giant-tengah {
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.pkt {
+    font-size: 18px;
+}
+
+.lynn {
+    font-size: 18px;
+}
+
+.btn-Giant {
+    margin-top: 15px;
+    display: flex;
+}
+
+.vr {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.brand{
+    color: white;
+}
