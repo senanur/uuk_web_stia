@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: hotpink;
+}
+
+header{
+    padding: 10px;
+    background-color: rgb(138, 246, 22);
+    border: 2px solid rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.kotak {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(243, 239, 239);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 150px;
+    margin-left: 700px;
+    box-shadow: grey;
+    border-radius: 25px;
+  }
+
+.text{
+    text-align: center;
+}
+
+.tulisan{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.button{
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+.but1{
+    background-color: greenyellow;
+}
+.but2{
+    background-color: yellow;
+}
