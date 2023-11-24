@@ -1,0 +1,120 @@
+*,
+html,
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f4f8fd;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0b1c40;
+}
+
+a {
+	color: unset;
+	text-decoration: none;
+}
+
+/* NAV BAR */
+
+nav {
+	width: 100%;
+	position: absolute;
+	background-color: #b6cbf1;
+	display: flex;
+	justify-content: space-between;
+	padding: 18px;
+}
+
+nav h1 {
+	margin-left: 24px;
+}
+
+nav h1 a {
+	padding: 12px;
+}
+
+nav h1 a span {
+	transition: 0.2s ease-in-out;
+}
+
+nav h1 a:hover span {
+	color: #f4f8fd;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	padding: 12px;
+	border-radius: 8px;
+	transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+	background-color: #9ab5ed;
+}
+
+/* SECTION 1 */
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+section .paket-1 {
+	background-color: #c5d5f3;
+	padding: 24px 52px;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+section .paket-1 h2 {
+	text-align: center;
+}
+
+section .paket-1 hr {
+	border: 1px solid #a8bfec;
+	border-radius: 12px;
+	margin-bottom: 14px;
+}
+
+section .paket-1 ol {
+	margin-left: 1.1rem;
+}
+
+/* SECTION 1 BUTTON */
+
+section .paket-1 .btn-group {
+	padding: 12px;
+	padding-top: 18px;
+	display: flex;
+	flex-direction: row;
+	gap: 28px;
+}
+
+section .paket-1 .btn-group a {
+	background-color: #95b1e8;
+	border-radius: 8px;
+	padding: 10px 12px;
+	transition: 0.2s ease-in-out;
+	font-weight: bold;
+}
+
+section .paket-1 .btn-group a:hover {
+	color: #e6effb;
+	background-color: #5883da;
+}
